@@ -1,3 +1,10 @@
+import Header from '../../components/Header';
+
 export default function Home() {
-  return <h1>HOME</h1>
+  return (
+    <>
+      <Header />
+      {/* <Typography variant="h3">HOME</Typography> */}
+    </>
+  );
 }
