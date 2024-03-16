@@ -16,7 +16,7 @@ export default function SeriesA() {
         }}
       >
         <Typography variant="h3" sx={{ mt: 3, mb: 3 }}>
-          Athletes
+          Athletes (Series A)
         </Typography>
         <BasicTable />
       </Container>
