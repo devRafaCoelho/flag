@@ -4,10 +4,10 @@ import Events from './pages/Events';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import MyAccount from './pages/MyAccount';
-import Register from './pages/Register';
 import SeriesA from './pages/SeriesA';
 import SeriesB from './pages/SeriesB';
 import SeriesC from './pages/SeriesC';
+import Signup from './pages/Signup';
 import { GlobalStyles } from './styles/GlobalStyles';
 import { getTheme } from './theme/theme';
 
@@ -24,7 +24,7 @@ export default function MainRoutes() {
         <Route path="/seriesB" element={<SeriesB />} />
         <Route path="/seriesC" element={<SeriesC />} />
         <Route path="/events" element={<Events />} />
-        <Route path="/register" element={<Register />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/myAccount" element={<MyAccount />} />
       </Routes>

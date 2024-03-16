@@ -16,8 +16,8 @@ import HeaderTabs from './HeaderTabs';
 
 const pages = ['Series A', 'Series B', 'Series C', 'Events'];
 const pathPages = ['/seriesA', '/seriesB', '/seriesC', '/events'];
-const settings = ['Register', 'Login', 'My Account'];
-const pathSettings = ['/register', '/login', '/myAccount'];
+const settings = ['Sign up', 'Log in', 'My Account'];
+const pathSettings = ['/signup', '/login', '/myAccount'];
 
 export default function Header() {
   const navigate = useNavigate();

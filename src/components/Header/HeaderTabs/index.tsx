@@ -9,7 +9,7 @@ export default function HeaderTabs() {
   const location = useLocation();
   const [value, setValue] = React.useState(location.pathname);
 
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
   };
 
