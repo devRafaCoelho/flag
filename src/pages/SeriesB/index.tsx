@@ -14,7 +14,7 @@ export default function SeriesB() {
           justifyContent: 'center'
         }}
       >
-        <Typography variant="h3" sx={{ mt: 3, mb: 3 }}>
+        <Typography variant="h3" sx={{ mt: 3, mb: 3, textAlign: { xs: 'center', md: 'left' } }}>
           Athletes (Series B)
         </Typography>
         <BasicTable />
