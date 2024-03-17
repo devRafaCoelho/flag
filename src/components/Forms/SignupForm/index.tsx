@@ -163,6 +163,14 @@ export default function SignupForm() {
         </Grid>
 
         <Grid item xs={12}>
+          <TextField label="Password" variant="outlined" fullWidth />
+        </Grid>
+
+        <Grid item xs={12}>
+          <TextField label="Confirm Password" variant="outlined" fullWidth />
+        </Grid>
+
+        <Grid item xs={12}>
           <TextField
             fullWidth
             select
