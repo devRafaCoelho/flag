@@ -11,6 +11,10 @@ export const GlobalStyles = () => {
       box-sizing: border-box;
     }
 
+    #root {
+      min-height: 100vh;
+    }
+
     body {
       color: ${theme.palette.common.white};
       background-color: ${theme.palette.common.black};

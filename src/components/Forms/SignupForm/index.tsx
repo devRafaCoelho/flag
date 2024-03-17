@@ -248,7 +248,7 @@ export default function SignupForm() {
 
         <Grid item xs={12}>
           <Button variant="contained" size="large" type="submit" fullWidth>
-            CONFIRM DATA
+            SIGN UP
           </Button>
         </Grid>
       </Grid>
