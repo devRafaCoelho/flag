@@ -15,7 +15,10 @@ export default function SeriesC() {
         }}
       >
         <Typography variant="h3" sx={{ mt: 3, mb: 3, textAlign: { xs: 'center', md: 'left' } }}>
-          Athletes (Series C)
+          Athletes{' '}
+          <Typography variant="h5" component="span">
+            (Series C)
+          </Typography>
         </Typography>
         <BasicTable />
       </Container>{' '}
