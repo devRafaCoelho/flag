@@ -1,8 +1,8 @@
+import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import { Avatar, Box, Typography } from '@mui/material';
 import SignupForm from '../../components/Forms/SignupForm';
 import Header from '../../components/Header';
 import { StyledLink } from '../../styles/styles';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 
 export default function Signup() {
   return (
