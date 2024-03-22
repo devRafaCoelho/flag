@@ -1,5 +1,6 @@
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-import Icon from '@mui/material/Icon';
+import HomeIcon from '@mui/icons-material/Home';
 import Tab from '@mui/material/Tab';
 import Tabs from '@mui/material/Tabs';
 import * as React from 'react';
@@ -15,16 +16,22 @@ export default function HeaderTabs() {
 
   return (
     <Tabs value={value} onChange={handleChange} aria-label="icon label tabs example">
-      <Tab component={Link} to="/seriesA" label="SERIES" value="/seriesA" icon={<Icon>A</Icon>} />
-      <Tab component={Link} to="/seriesB" label="SERIES" value="/seriesB" icon={<Icon>B</Icon>} />
-      <Tab component={Link} to="/seriesC" label="SERIES" value="/seriesC" icon={<Icon>C</Icon>} />
+      <Tab component={Link} to="/home" label="HOME" value="/home" icon={<HomeIcon />} />
+      <Tab
+        component={Link}
+        to="/ranking"
+        label="RANKING"
+        value="/ranking"
+        icon={<EmojiEventsIcon />}
+      />
       <Tab
         component={Link}
         to="/events"
         label="EVENTS"
         value="/events"
-        icon={<EmojiEventsIcon />}
+        icon={<CalendarMonthIcon />}
       />
+      {/* <Tab component={Link} to="/seriesC" label="SERIES" value="/seriesC" icon={<Icon>C</Icon>} /> */}
     </Tabs>
   );
 }

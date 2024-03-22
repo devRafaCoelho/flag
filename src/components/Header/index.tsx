@@ -14,8 +14,8 @@ import * as React from 'react';
 import { useNavigate } from 'react-router-dom';
 import HeaderTabs from './HeaderTabs';
 
-const pages = ['Series A', 'Series B', 'Series C', 'Events'];
-const pathPages = ['/seriesA', '/seriesB', '/seriesC', '/events'];
+const pages = ['Home', 'Ranking', 'Events'];
+const pathPages = ['/home', '/ranking', '/events'];
 const settings = ['Sign up', 'Log in', 'My Account'];
 const pathSettings = ['/signup', '/login', '/myAccount'];
 

@@ -10,6 +10,7 @@ import SeriesC from './pages/SeriesC';
 import Signup from './pages/Signup';
 import { GlobalStyles } from './styles/GlobalStyles';
 import { getTheme } from './theme/theme';
+import Ranking from './pages/Ranking';
 
 export default function MainRoutes() {
   const theme = getTheme();
@@ -20,10 +21,11 @@ export default function MainRoutes() {
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/ranking" element={<Ranking />} />
+        <Route path="/events" element={<Events />} />
         <Route path="/seriesA" element={<SeriesA />} />
         <Route path="/seriesB" element={<SeriesB />} />
         <Route path="/seriesC" element={<SeriesC />} />
-        <Route path="/events" element={<Events />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/myAccount" element={<MyAccount />} />

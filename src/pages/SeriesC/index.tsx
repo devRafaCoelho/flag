@@ -1,6 +1,6 @@
 import { Container, Typography } from '@mui/material';
 import Header from '../../components/Header';
-import BasicTable from '../../components/Table';
+import BasicTable from '../../components/Table/SeriesATable';
 
 export default function SeriesC() {
   return (
