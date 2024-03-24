@@ -4,6 +4,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import EventModal from '../Modals/EventModal';
 
 interface MediaCardProps {
   eventName: string;
@@ -31,7 +32,8 @@ export default function MediaCard(props: MediaCardProps) {
       </CardContent>
       <CardActions>
         <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <EventModal />
+        {/* <Button size="small">Learn More</Button> */}
       </CardActions>
     </Card>
   );
