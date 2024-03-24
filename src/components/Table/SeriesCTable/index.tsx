@@ -65,7 +65,7 @@ export default function SeriesCTable() {
           }}
         >
           <Typography variant="h4" id="tableTitle" component="div">
-            ATHLETES
+            Athletes
           </Typography>
 
           <FilterMenu onSelectOption={handleSelectOption} />

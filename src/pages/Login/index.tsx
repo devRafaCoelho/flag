@@ -11,7 +11,7 @@ export default function Login() {
 
       <Box
         sx={{
-          mt: 8,
+          mt: 4,
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center'
