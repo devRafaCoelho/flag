@@ -7,7 +7,7 @@ export default function Ranking() {
     <>
       <Header />
 
-      <Container>
+      <Container disableGutters={true}>
         <RakingTabs />
       </Container>
     </>

@@ -47,7 +47,7 @@ export default function MyAccountTabs() {
   };
 
   return (
-    <Box sx={{ width: { md: '50%', sm: '100%' } }}>
+    <Box>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered>
           <Tab label="Personal Data" {...a11yProps(0)} />

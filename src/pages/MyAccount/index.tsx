@@ -1,29 +1,26 @@
-import { Box, Typography } from '@mui/material';
+import { Container, Typography } from '@mui/material';
 import Header from '../../components/Header';
-import MyAccountTabs from '../../components/MyAccountTabs';
 import DeleteAccountModal from '../../components/Modals/DeleteAccountModal';
+import MyAccountTabs from '../../components/MyAccountTabs';
 
 export default function MyAccount() {
   return (
     <>
       <Header />
 
-      <Box
-        sx={{
-          mt: 8,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center'
-        }}
+      <Container
+        maxWidth="sm"
+        disableGutters={true}
+        sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
       >
-        <Typography variant="h3" align="center" mb={2}>
+        <Typography sx={{ typography: { sm: 'h3', xs: 'h4' } }} align="center" mt={4} mb={2}>
           Manage your data
         </Typography>
 
         <MyAccountTabs />
 
         <DeleteAccountModal />
-      </Box>
+      </Container>
     </>
   );
 }

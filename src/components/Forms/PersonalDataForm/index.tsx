@@ -140,7 +140,7 @@ export default function PersonalDataForm() {
   ];
 
   return (
-    <Container component="form" maxWidth="sm">
+    <Container component="form" maxWidth="sm" disableGutters={true}>
       <Grid container spacing={3}>
         <Grid item sm={6} xs={12}>
           <TextField label="First Name" variant="outlined" fullWidth />
